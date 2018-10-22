@@ -110,5 +110,5 @@ Decidim::Core::Engine.routes.draw do
     get "/me" => "doorkeeper/credentials#me"
   end
 
-  root to: "pages#show", id: "home"
+  root to: "homepage#show"
 end
